@@ -1,0 +1,3 @@
+What is the big O notation for your program?
+
+For find-pair and find-best-combination it's O(n^2)

@@ -1,0 +1,5 @@
+What would the bottlenecks in your implementation be as you acquire more users. How you might scale your microservice?
+
+The dictionary of messages that have been sent would run out of memory as usage increases.
+I would use a database to store the information.
+Then you can scale by using a scalable database (something that can be partitioned across multiple servers such as Redis) and a load balancing scheme to handle high traffic.

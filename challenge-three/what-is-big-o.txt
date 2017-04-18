@@ -1,0 +1,3 @@
+What is the big O notation for your program?
+If n is the number of characters, worst case all the characters are X.
+The big 0 would be O(2^n), which is also the number of lines printed
